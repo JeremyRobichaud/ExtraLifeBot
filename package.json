@@ -1,0 +1,27 @@
+{
+  "name": "csa-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "lint": "eslint --fix --ext .js,.jsx ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-mutex": "^0.3.2",
+    "cron": "^1.8.2",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "discord.js": "^13.3.1",
+    "node": "^17.0.1",
+    "request": "^2.88.2",
+    "wokcommands": "^1.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-auto-fix": "^1.0.3",
+    "eslint-plugin-react": "^7.26.1"
+  }
+}
